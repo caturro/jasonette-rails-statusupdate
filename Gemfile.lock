@@ -56,6 +56,10 @@ GEM
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     i18n (0.8.1)
+    jasonette-rails (0.1.2)
+      actionview (>= 4.0.0)
+      jbuilder (~> 2.6.1)
+      rails (>= 4.0.0)
     jbuilder (2.6.3)
       activesupport (>= 3.0.0, < 5.2)
       multi_json (~> 1.2)
@@ -80,6 +84,7 @@ GEM
     nio4r (2.0.0)
     nokogiri (1.7.1)
       mini_portile2 (~> 2.1.0)
+    pg (0.19.0)
     puma (3.8.2)
     rack (2.0.1)
     rack-test (0.6.3)
@@ -156,9 +161,11 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
+  jasonette-rails
   jbuilder (~> 2.5)
   jquery-rails
   listen (~> 3.0.5)
+  pg
   puma (~> 3.0)
   rails (~> 5.0.2)
   sass-rails (~> 5.0)
